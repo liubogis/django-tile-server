@@ -43,7 +43,13 @@ Lancement du serveur :
 
 
 
-### OpenLayer
+### Mise dans place dans les gestionnaires de tuile
+
+#### Dans QGis
+
+#### Dans Leaflet
+
+#### Dans OpenLayer
 
 ```javascript
 
