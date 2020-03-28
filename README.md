@@ -49,6 +49,12 @@ Lancement du serveur :
 
 #### Dans Leaflet
 
+```javascript
+
+var layer = L.tileLayer('http://<ip>:<port>/raster/tms/{z}/{x}/{y}.png');
+
+```
+
 #### Dans OpenLayer
 
 ```javascript
