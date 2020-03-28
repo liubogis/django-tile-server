@@ -1,6 +1,7 @@
 # DJANGO TILE SERVER
 
 Serveur de rendu de tuile utilisant le protocole TMS. L'idée est que chaque tuile est non pas sur le file system, mais directement en base pour faciliter les traitements avec les requete spatial postgis.
+Le principe de fonctionnement est le même que celui d'un geoserver ou d'un mapserver.
 
 ## Prérequis
 
