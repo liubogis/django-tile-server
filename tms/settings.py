@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'tms.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE'   : 'django.contrib.gis.db.backends.postgis',
-        'NAME'     : 'coronavirus',
-        'HOST'     : 'localhost',
-        'PORT'     : 5432,
-        'USER'     : 'uzenat',
-        'PASSWORD' : 'geofit'
+        'NAME'     : <db_name>,
+        'HOST'     : <your_host>,
+        'PORT'     : <your_port>,
+        'USER'     : <user>,
+        'PASSWORD' : <password>'
 
     }
 }
