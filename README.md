@@ -1,1 +1,1 @@
-# django-tile-server
+# DJANGO TILE SERVER
