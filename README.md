@@ -18,7 +18,7 @@ Le principe de fonctionnement est le même que celui d'un geoserver ou d'un maps
 - ```django-filter```
 - ```rasterio```
 - ```django-cors-headers```
-- ``psycopg2-binary```
+- ```psycopg2-binary```
 
 ## Téléchargement & installation
 
