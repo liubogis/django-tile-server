@@ -36,6 +36,33 @@ Lancement du serveur :
 
 ## Utilisation
 
+### OpenLayer
+
+```
+import 'ol/ol.css';
+import Map from 'ol/Map';
+import View from 'ol/View';
+import TileLayer from 'ol/layer/Tile';
+import XYZ from 'ol/source/XYZ';
+
+var view = new View({
+    center: [-472202, 7530279],
+    zoom: 12
+});
+
+var url    = 'https://<ip>:<port>/raster/tms/{z}/{x}/{y}.png?layer=<layer_name>';
+
+var source = new XYZ({ url: url });
+var layer  = new TileLayer({ source: source });
+
+var map = new Map({
+  target: 'map',
+  layers: [ layer ],
+  view: view
+});
+
+```
+
 
 
 ```
