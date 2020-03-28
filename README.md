@@ -38,7 +38,8 @@ Lancement du serveur :
 
 ### OpenLayer
 
-```
+```javascript
+
 import 'ol/ol.css';
 import Map from 'ol/Map';
 import View from 'ol/View';
@@ -60,9 +61,5 @@ var map = new Map({
   layers: [ layer ],
   view: view
 });
-
-```
-
-
 
 ```
