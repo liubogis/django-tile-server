@@ -51,7 +51,13 @@ Lancement du serveur :
 
 ```javascript
 
+var map = L.map('map', {
+    crs: L.CRS.EPSG4326
+});
+
 var layer = L.tileLayer('http://<ip>:<port>/raster/tms/{z}/{x}/{y}.png');
+
+layer.addTo( map );
 
 ```
 
