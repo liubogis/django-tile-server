@@ -17,7 +17,7 @@ Le principe de fonctionnement est le même que celui d'un geoserver ou d'un maps
 - ```djangorestframework-gis```
 - ```django-filter```
 - ```rasterio```
-- ```django-cors```
+- ```django-cors-headers```
 
 ## Téléchargement & installation
 
